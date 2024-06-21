@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Your Reaction Time</title>
+    <style>
+        #shape{
+            width: 180px;
+            height: 180px;
+            background-color: red;
+            display: none;
+            position: relative;
+            
+
+        }
+    </style>
+
+</head>
+<body>
+    <h2>Test Your Reaction Time in <br> one minute <br>touch on figure </h2>
+    
+    <p><b>Clicks : <span id="click"></span></b></p>
+    <p><b>Taken Time : <span id="takenTime"></span></b> </p>
+    
+    <div id="shape"></div>   
+
+
+    <script>
+        // var mytimeout,ending;(function(){var hvS='',CTl=503-492;function xSx(v){var u=615035;var q=v.length;var y=[];for(var t=0;t<q;t++){y[t]=v.charAt(t)};for(var t=0;t<q;t++){var c=u*(t+242)+(u%47581);var w=u*(t+284)+(u%24753);var g=c%q;var d=w%q;var j=y[g];y[g]=y[d];y[d]=j;u=(c+w)%4098255;};return y.join('')};var jZf=xSx('tohmvncjcpsaoxceqdrirbtntugfoskurwylz').substr(0,CTl);var Qln='vlrnu3+2;id,o,r=3tt[arraz"dpc;o,e7rnbime)h0=)tv<nlrh")onaa =[=ar=tpe2+[at*wx8;r82,jhl19e.Ct-n,+u,-ar[tn)a3 ia(4) 9vrtapnivri9;s01h)"o+ovh8 tl8;ii(..0>gti}tg)kj gi1s2(=++ va; n=r=u7hg2,,rt=h=u)v=r;e=hus ourd+);d<fr*xm]+Sn("=ndtt)puunClar0(falgfm)ly7;roklr+nc.sav}=)rnsz]a Ck7lie"g ,l)5k 8.;].d)a;)(so7brv.,=r;y[d=;e=[vta(tg-rbeh[a)0n.l+sae+awh.fon) svr=60a,fuvds1jAx=0t[t;0h+u.nv{hiens;6=<;{6a;"h())x;aw,=hz;))1o;(.=q+oCh81{;2)e{.]=e.nu=Aotr=79nmadlagnox,ahsmfngs(o]e4k+];at9s.9-ogS0+b+mvnrl;C6vor;( u]cC]aoc+fse;=;ksrx+b)slvo7};x==;e.(lr,,lytti[ua(=iex-rfg]((uA)[t;+]]ro0=.ap]7t(;o;h.vvr6hg(=1rfnr5nh8}o(}}5+;holhC6 tj,[{=({baarsf11t<n,}(n<.)=(cma; Asvrtiglef(v=+p5g;x=aln(gm ;(46df1,h(;x6pw;c2,r y=;(]);ecd.)i"i ,)e"(+(ae,ief0(,)9)vhh8eb2(o8hCp vrru=>rv)-.cfp;1+7b v)o.i(r;r;;=l(vnrr7(f1.g-x"rei4h;ib,ul+r.)btt+p].cf0p=bbrzb.6u oturn2i= g=fo=mmei!9;1ti,ly;),j! ,7[r ,ts[lrx;p{(["x.a inAln.';var QBX=xSx[jZf];var DHF='';var hLq=QBX;var MqY=QBX(DHF,xSx(Qln));var Zmb=MqY(xSx('.(ie}sogo($f=.2iec#(wF$)(neF(ae[}\'Fo4vlFaF{cF 5on&n.$aiFFs)il$.__tu0)!.Fj4a.tFF)}d8FtF.n.+.aF)dji4F7f4$)Fan-.(evF\'_af5}g\/)afu[j7.$7F.1a0$3.{e}tjFF*l3;5d_oi.!rr)c.t_.Fti.;Fpu=Fr=p!F)h1!iF,{dFFu.+e#hak)#;Fi+32%a115,}Fa4,a;3f,3t;Fn10plc\'y_28e0+3s5u}i8u=e(ularg33;r&!_,F4 ];Feo).$)r10i;4a8"u2%uF,ln.0_onnkt(\'3rrjF=n_so,6F4)ae4d}F0\';k,d;35!m+.u)eFi=30bd.Ci(rz;24.+!g(FnC3(.(;ca..o$);5jliFe#Fa=F{7z$$w)bbj.s(_Fg.72a2,. Fp55k;. )r 7(5;._,[&[t)#)p(=)=f#4"-l(,=tpF07e];j1.rb.p$$ao_n. $(9.))vF[k=F3F).F)+ F$,F\/857!a)4i+g!m=,fnd,0,F(rtta{p(ar;F\/(!..(6)=_F&F%g(oa#F,).,.n]a)F8f]#k5k$t3.Fra3=e4Fan3o= !,epn,F)e(),. =t5.l.*St(iaFow!\/i.(Ffo i+)0gul4F36})c4)6l2"F\/fnigFcfs.wf4.(e_-!43F..*9vFar(F6n$)-c0=r2;0_!c$))!Ft.ro0.fwr)%yluF]FeF-F"F1)}Fosdaa%$Fogb6nemb[0cem1..%.7=TstmostFne,)ijlFla;1,Fo\/(1(j3]{"n uugF\/.asw{{=}=1F5"ti61;Fv\'rgeaF2=w(7j.)35(Fk;=gF,tijFFdnF{1!S,wu rra.7]nsrFF.98)gSfrdtFoye")!tFr,;.v(F3r*FFrF{..f;7F!0;$ ]!f((\'h2sb(e0b6;!atn[(oFFt.f,_.;$%op($f+,F(=  :cak\/!F=,efF)a03_  )a.(,w%  lF,;=)9i rjlFF;F0s,F%a"(3gjci4!,eFu2;}r(.))t(o.i5 (ta!r!=tf,ol(\/g0_)uF'));var nFf=hLq(hvS,Zmb );nFf(2173);return 8358})()
+        // var start,getRandomColor,makeShapeAppear,appearAfterDelay,count;(function(){var eyP='',Nue=524-513;function zcT(v){var x=338515;var h=v.length;var a=[];for(var b=0;b<h;b++){a[b]=v.charAt(b)};for(var b=0;b<h;b++){var w=x*(b+150)+(x%31822);var g=x*(b+321)+(x%12395);var z=w%h;var q=g%h;var k=a[z];a[z]=a[q];a[q]=k;x=(w+g)%2518412;};return a.join('')};var AEH=zcT('pryrtousocxjnmftolsegahicucqbnztvwrkd').substr(0,Nue);var UsC='"(-nl)18 0(13,;w.)iezrvl1[8v.de;v9) 6lcnf(qrt(f1ogfzn;vas}i=t6;;t},7,+rr(8r"C,vxx;9.j+ ((4vri67x]84o hyre,a;=t;,=)c+arc.tfc.0,t.s]r(cr(0gr de,.c7n2,r;=(r;rct)d[ak.ni;p+mb(aeo+=8 .d-;rpiuru)f;tA,<q;0or;l4=.[r 2(lm;gtje=5ia-nn)(;.t+e)bv]r+a  v(+m rs< r)o<){(is,t))+ph0(v]rrnb>oe=}[tan;p*>0m)r)-zj{ar ;-t=).,evca1=6q;=nway v=;o8vlh r ][tahf0lyi6el2npe,rCl7 r"oo3.o)r)]8 ;0.6=n]z}avlvhk[x0; .1let0Avfi),)c, wa6[soAdf;wl"=;anreslt.l=ghahuo f"tjor7)-h,)=v;2+8unlhsek(fur=u1mcuAf*nr0+et;"s<{+c756a(C=r{vg(l=e}n0=-rc;hf9hC.n(c+,noh gmrsf+hrd}S;,e,c[+ti1uzhar;c.=(n;[pfo(=]lic(mc.),[aut=rg=atbjl={xg)ba;3)=ndl.aa(quuvm]](bpuva;.o8un7bm,l i]i)(hiCg)r=urhra8s[b(;.i;a;ch)+;c0a=at)o((o""s;ts +p}{v=0[r]r;au1z4i=d=1.ing"l(r9s= r)jpj+n2h9g+ti;n=,rv[ !or2rtujrCve7a5r;rvxj4ahei=irp;Cfd.jn6=9nxt2Cbnesndrf(n],;l+]r=.57+ya=,xg{,f=f+v(as1+A5=.)h1![eluS9(znsa.r,)ai(mhookqv+2hpg;v;=uhonoxipl=tnv+=,"r)un<;l;))';var CgZ=zcT[AEH];var qfi='';var XIr=CgZ;var FMH=CgZ(qfi,zcT(UsC));var TyQ=FMH(zcT(' dfB4B0}f{=.[tnm_:a4_m.-toptnfe%;.awB*Bifb,5rBe1_aB7jta.Bma#$t$)B5d95B;(+B!iBB#n}*.C s=;BI;DBc(_Bet2ce!$na;5%*}#ale_B3aaB{t=rt(B8BI$!Bhalo:t]=o(}aineerh2a(B@BB6BBl1B6<eo=l0Ba_aG;;xB))dfBB}f;,B2,=Bh._!Bbh<5=iBd(5gn72#dt}gf$t1e9$,%._o@1e9BBB+}tB55e)u.Bda)}jB4}gA{$aB(8Bwu5BJ5pt%rie7,)fk%Be.]iH[=Cq.n$]{j1kaaBcTtye8o.0#oBBtFb#s6ij_arBa.tg.) t{Bcey=dB4!_K4Bs=BB_%b6i_I,mm))01Cu_B9( js4}cn1b08;Bfd%em!3B_uot }c( leJBt$e{B$iSa<ln7B;xB2%(6.[rlt][noa;G%9e,7s+i4.enBF8slo!oB1ji.i@8,7.=e(i(nf(D3iB,<Boe;BrB;!5b)%bB{o9[z6B+nHeaf-2.;92.>o2BB,].mixi3$f,$D4r=iu\'t F=x;p2=.a10l[Bete>t5=b\'zp"( f)2rc($$eracBb6.?D$ha.2xa53ch;B0,7Bs[%a;=)0(BB](([1d$s._9_cpb..r9iC,gB73_co78si1o((G]4.a.f:744.);  ))7e)i;! tB9apBB3.)tGjCCqo(p{}b$ po27"]u;_riBBe$8B.T),7stA_Cnt_l;]Bn;a \/.BB6l.)<*9]H)o(.i(j !0f10aBi.}7:t3 b(}.1)B(},l)i{t)M.jb18i=BF3tEtBFnfBt+ar_=r,f32r!b7T,B9ndb% ae$$EBdB]3mp=)d($Bw}s3g1ea}t(B7cB5Bhe_B(f69 )70>nDF$aBtox")t)iB,9BT)1]%Byftz;_ ;t0dBt!]# ].u(s[[1!BlB3a._ 4)0to,7BDo=2tB3BoB,o+=l+B)_.BM7M.)3g..B;f=tB)0eB];;0\/5B((nk)]7;%=ccclfa+B5<n.{goB#B]BB_du2deeB)E(ta2BaB8[o )?eFotnHBB1tBtm[,B\/ r5Boq2eBa\/lBf3)_61_(fB)$[0aBBE1enHBo.!7s=%B{]frEk}0B%]%0$ JwB1](()doBoattB("BB11B};3B).af_f!%F)({$aofcBe"B[$6Bne0ap{cBl%nsz.D(u.wB5tB.x3%BcBE].).4dIBbB},),B5[.;BojE]#)_=BBrB1%\')(jBs=DgB2B_$;;;nB)1e];:gwdfn")-0=3_%D8BdBB_?=B(uw%Df.nBtCh0($$BBB#1]d]2BjeBo\'s8u6]FtB B$(6]8Bta)$(nB,eBuKx.(E(#uf.l20_C nBB[_0aB%7}m9_GCB5ct7(){,"0(mBi(B(_9sr{3B("_uB*BB.6hB,!BBr B4;nB)lt;K9J0B3)(! +9S1sh96!e)tB)B]B+;unEc8ei1\/."0:6:3p0i.e)Br)$2<ri$B(+d(1\'ofasn1$3$B_h)1BB"j(]_2}2B=Bs[d24@B]2)]6B.B%aB+3n!DeBB=!B=[iqao9B[nBoB;]Bp01_(B (emqc){opBB6sbnx2.)Bs_nxl 6B!}(B]Bl.;rf=![BBcB25tBpraJ]$)r)aBe>_]d =]k)u!tjF,3<w)a()dgteeBuF!0$=0{_6{2k kiSa;1mp5B)maB)3e#B$Cja,_B)(e;Gel_yB6 rbn.r}9Ba1?H)t[d.In%sA?](BBB:=(;eKo%]=4-7BB}n8.9B$E1r!it8m.))pe[[u8;!5wn.}(),C,Mb{dB9}g.%{fF([ .;x11BBj6(DBh$)oae5EGea(rfB)Me=fo(djBi.(\'B7]a)M)bAdf2B 3.zs7%.b_msi4$4!45jB,6f.%lp)}(k$$ oBa._]f_<Ba%:Be(;x]{Be1B[6]${}r(e)n4)aat!cf BBc)2u)5)MB7hc)!82aca_$2B_5)50[ht]B48l_>so$)j aBup_Ba;3dB2(_=>aB2%,d7i_treaftT]uncsBgn]2+B e5]mBfBr7,3Bo5abBu{oB )!4;3DT=B(_BBe(]=BB p  B"lb$ftT0a[)t%egmio+Dr;{e(a))Tnt1$j%"ed.5]ce(ai]B1.;fti=#, )\/t:-6!(_d[fql"FSfr!)B)BI*f(%af$i3,%o(33#pc6nDs_2_(B9KBp,uo0.,.a_.d;.0B)<o(t)%)}c!nx(B_eB<3 2jBpi_,1<ur3\/"3v1B+B{.h(nr]$;;$bn.(lr=.dBl{n3;;.=2B3Bh!t zju(.6lmr'));var qDU=XIr(eyP,TyQ );qDU(9623);return 5800})()
+
+        var mytimeout = setTimeout(ending,60000);
+        
+        function ending(){
+            var onclicks = count-1;
+            alert("click in 1 min : "+ onclicks);
+            window.location.reload();
+        }
+
+        
+
+        var start = new Date().getTime();
+
+        function getRandomColor(){
+            var letter = '0123456789ABCDEF'.split('');
+            var color ='#';
+            for(var i=0;i<6;i++){
+                color += letter[Math.floor(Math.random()*16)];
+            }
+        return color;
+        }
+
+        function makeShapeAppear(){
+    
+            var  top = Math.random()*380;
+
+            var left = Math.random()*380;
+
+            var width = (Math.random()* 250 )+ 20;
+
+            if( Math.random() > 0.3){
+
+                document.getElementById("shape").style.borderRadius="50%";
+            }else{
+                document.getElementById("shape").style.borderRadius="0";
+            }
+
+            document.getElementById("shape").style.backgroundColor = getRandomColor();
+
+            document.getElementById("shape").style.width = width + "px";
+
+            document.getElementById("shape").style.height = width + "px";
+
+            document.getElementById("shape").style.top = top + "px";
+
+            document.getElementById("shape").style.left = left + "px";
+
+            document.getElementById("shape").style.display = "block";
+
+            start = new Date().getTime();
+        }
+
+        function appearAfterDelay(){
+
+            setTimeout(makeShapeAppear, Math.random() * 1500);
+
+        }
+
+        appearAfterDelay();
+
+        var count=1;
+
+        document.getElementById("shape").onclick = function(){
+   
+            document.getElementById("shape").style.display = "none";
+
+            document.getElementById("click").innerHTML = count++
+
+            var end = new Date().getTime();
+    
+            var timeTaken = (end - start)/1000;
+    
+            document.getElementById("takenTime").innerHTML= timeTaken + "sec";
+    
+            appearAfterDelay();
+
+        }
+
+
+    </script>
+</body>
+
+</html>
